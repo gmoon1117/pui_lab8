@@ -1,10 +1,28 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    color: coral;
+  font-family: 'Roboto', sans-serif;
+  color: coral;
 }
 
 #container {
-    margin: 0 auto;
-    width: 80%;
-    text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+button {
+  font-family: 'Open Sans Condensed', sans-serif;
+  border: 1px solid coral;
+  border-radius: 5px;
+  background-color: white;
+  color: coral;
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+#button-action-text {
+  display: none;
 }
